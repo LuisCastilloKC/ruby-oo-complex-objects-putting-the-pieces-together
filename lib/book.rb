@@ -40,10 +40,24 @@ class Book
     #     @genre
     # end
 
-     #######  THE ABOVE CODE IS THE LONG WAY ####### 
+     #######  THE CODE ABOVE IS THE LONG WAY ####### 
 
     def turn_page 
         puts("Flipping the page...wow, you read fast!")
     end
 end
 
+
+
+
+
+# Book
+#   ::new
+#     gets initialized with a title
+#   properties
+#     has a title
+#     has an author name
+#     has a page count
+#     has a genre
+#   #turn_page
+#     can turn the page

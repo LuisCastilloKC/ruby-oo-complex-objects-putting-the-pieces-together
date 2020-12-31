@@ -11,6 +11,7 @@ attr_reader :brand
    end
 
    #### THIS CODE IS ALREADY WORKING IN THE attr_reader ####
+          ### ALL THE COMMENT CODE IS NOT NEEDED ###
 
 #    def brand
 #     @brand
@@ -61,3 +62,22 @@ attr_reader :brand
    end
 
 end
+
+
+
+# hoe
+#   ::new
+#     gets initialized with a brand
+#   properties
+#     has a brand
+#     has a color
+#     has a size
+#     has a material
+#     has a condition
+#   #cobble
+#     says that the shoe has been repaired
+# Your shoe is as good as new!
+#     makes the shoe's condition new
+
+# Finished in 0.01603 seconds (files took 0.11225 seconds to load)
+# 14 examples, 0 failures
