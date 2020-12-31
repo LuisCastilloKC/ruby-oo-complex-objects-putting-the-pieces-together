@@ -1,2 +1,49 @@
+class Book
+    attr_accessor :author, :page_count, :genre
+    attr_reader :title
 
+    def initialize(title)
+        @title = title
+    end
+   #### THIS CODE IS ALREADY WORKING IN THE attr_reader ####
+
+    # def title
+    #     @title
+    # end
+
+   #### THE ABOVE CODE IS ALREADY WORKING IN THE attr_reader ####
+
+
+    #######  THIS WAY BELOW IS THE LONG WAY #######  
+
+    # def author=(author) #author= is a getters
+    #     @author = author
+    # end
+
+    # def author #author is a setters
+    #     @author
+    # end
+
+    # def page_count=(num) #page_count= is a getters
+    #     @page_count = num
+    # end
+
+    # def page_count #page_count is a setters
+    #     @page_count
+    # end
+
+    # def genre=(genre) #genre= is a getters
+    #     @genre = genre
+    # end
+
+    # def genre  #genre with out the = sign it is a setters
+    #     @genre
+    # end
+
+     #######  THE ABOVE WAY IS THE LONG WAY ####### 
+
+    def turn_page 
+        puts("Flipping the page...wow, you read fast!")
+    end
+end
 
